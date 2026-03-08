@@ -12,6 +12,7 @@ cask "crawlio" do
   app "Crawlio.app"
 
   binary "#{appdir}/Crawlio.app/Contents/Helpers/CrawlioCLI", target: "crawlio"
+  binary "#{appdir}/Crawlio.app/Contents/Helpers/CrawlioMCP", target: "crawlio-mcp"
 
   zap trash: [
     "~/Library/Application Support/Crawlio",
