@@ -1,7 +1,7 @@
 class CrawlioMcp < Formula
   desc "MCP server for Crawlio — control the website crawler from AI assistants"
   homepage "https://crawlio.app"
-  version "1.5.0"
+  version "1.6.0"
   license :cannot_represent
 
   on_arm do
